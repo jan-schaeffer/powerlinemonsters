@@ -1,14 +1,12 @@
-# folder
+# Folders
 data/archive
 data/controls
 data/elections
 data/geodata
 data/gtrends
 
-
 # Mac Finder Configurations
-.DS_Store
-
+**/.DS_Store
 
 # IPython checkpoints
 .ipynb_checkpoints/
