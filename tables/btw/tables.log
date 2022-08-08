@@ -1,0 +1,597 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.26)  30 MAY 2022 16:57
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**tables.tex
+(./tables.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-05-04>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count196
+\l__pdf_internal_box=\box50
+)
+(./tables.aux)
+\openout1 = `tables.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a1paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(253.51663pt, 1183.06041pt, 253.51665pt)
+* v-part:(T,H,B)=(287.14813pt, 1675.00642pt, 430.72221pt)
+* \paperwidth=1690.09369pt
+* \paperheight=2392.87677pt
+* \textwidth=1183.06041pt
+* \textheight=1675.00642pt
+* \oddsidemargin=181.24664pt
+* \evensidemargin=181.24664pt
+* \topmargin=177.87814pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 8.
+./tables.tex:15: Missing $ inserted.
+<inserted text> 
+                $
+l.15  post_
+           2013 & 0.142$^{}$ & -8.316$^{***}$ & -2.743$^{***}$ & 1.343$^{***...
+
+? s
+OK, entering \scrollmode...
+./tables.tex:15: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.15  post_2013 &
+                  0.142$^{}$ & -8.316$^{***}$ & -2.743$^{***}$ & 1.343$^{***...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:15: Missing $ inserted.
+<inserted text> 
+                $
+l.15  post_2013 &
+                  0.142$^{}$ & -8.316$^{***}$ & -2.743$^{***}$ & 1.343$^{***...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:15: Missing } inserted.
+<inserted text> 
+                }
+l.15  post_2013 &
+                  0.142$^{}$ & -8.316$^{***}$ & -2.743$^{***}$ & 1.343$^{***...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tables.tex:17: Missing $ inserted.
+<inserted text> 
+                $
+l.17  treated_
+              50 & -0.683$^{***}$ & 2.976$^{***}$ & -0.081$^{}$ & -1.121$^{*...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:17: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.17  treated_50 &
+                   -0.683$^{***}$ & 2.976$^{***}$ & -0.081$^{}$ & -1.121$^{*...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:17: Missing $ inserted.
+<inserted text> 
+                $
+l.17  treated_50 &
+                   -0.683$^{***}$ & 2.976$^{***}$ & -0.081$^{}$ & -1.121$^{*...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:17: Missing } inserted.
+<inserted text> 
+                }
+l.17  treated_50 &
+                   -0.683$^{***}$ & 2.976$^{***}$ & -0.081$^{}$ & -1.121$^{*...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tables.tex:19: Missing $ inserted.
+<inserted text> 
+                $
+l.19  treated_
+              50*post_2013 & 1.024$^{***}$ & 0.190$^{*}$ & 0.178$^{***}$ & -...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:19: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.19  treated_50*post_2013 &
+                             1.024$^{***}$ & 0.190$^{*}$ & 0.178$^{***}$ & -...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:19: Missing $ inserted.
+<inserted text> 
+                $
+l.19  treated_50*post_2013 &
+                             1.024$^{***}$ & 0.190$^{*}$ & 0.178$^{***}$ & -...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:19: Missing } inserted.
+<inserted text> 
+                }
+l.19  treated_50*post_2013 &
+                             1.024$^{***}$ & 0.190$^{*}$ & 0.178$^{***}$ & -...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tables.tex:43: Missing $ inserted.
+<inserted text> 
+                $
+l.43  post_
+           2017 & -5.780$^{***}$ & -8.020$^{***}$ & 0.668$^{***}$ & 0.350$^{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:43: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.43  post_2017 &
+                  -5.780$^{***}$ & -8.020$^{***}$ & 0.668$^{***}$ & 0.350$^{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:43: Missing $ inserted.
+<inserted text> 
+                $
+l.43  post_2017 &
+                  -5.780$^{***}$ & -8.020$^{***}$ & 0.668$^{***}$ & 0.350$^{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:43: Missing } inserted.
+<inserted text> 
+                }
+l.43  post_2017 &
+                  -5.780$^{***}$ & -8.020$^{***}$ & 0.668$^{***}$ & 0.350$^{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tables.tex:45: Missing $ inserted.
+<inserted text> 
+                $
+l.45  treated_
+              50 & -0.731$^{***}$ & 3.232$^{***}$ & 0.038$^{}$ & -1.241$^{**...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:45: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.45  treated_50 &
+                   -0.731$^{***}$ & 3.232$^{***}$ & 0.038$^{}$ & -1.241$^{**...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:45: Missing $ inserted.
+<inserted text> 
+                $
+l.45  treated_50 &
+                   -0.731$^{***}$ & 3.232$^{***}$ & 0.038$^{}$ & -1.241$^{**...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:45: Missing } inserted.
+<inserted text> 
+                }
+l.45  treated_50 &
+                   -0.731$^{***}$ & 3.232$^{***}$ & 0.038$^{}$ & -1.241$^{**...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tables.tex:47: Missing $ inserted.
+<inserted text> 
+                $
+l.47  treated_
+              50*post_2017 & 2.002$^{***}$ & -0.489$^{***}$ & 0.066$^{}$ & 0...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:47: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.47  treated_50*post_2017 &
+                             2.002$^{***}$ & -0.489$^{***}$ & 0.066$^{}$ & 0...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:47: Missing $ inserted.
+<inserted text> 
+                $
+l.47  treated_50*post_2017 &
+                             2.002$^{***}$ & -0.489$^{***}$ & 0.066$^{}$ & 0...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:47: Missing } inserted.
+<inserted text> 
+                }
+l.47  treated_50*post_2017 &
+                             2.002$^{***}$ & -0.489$^{***}$ & 0.066$^{}$ & 0...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tables.tex:71: Missing $ inserted.
+<inserted text> 
+                $
+l.71  post_
+           2013 & 0.434$^{***}$ & -7.861$^{***}$ & -3.965$^{***}$ & 1.193$^{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:71: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.71  post_2013 &
+                  0.434$^{***}$ & -7.861$^{***}$ & -3.965$^{***}$ & 1.193$^{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:71: Missing $ inserted.
+<inserted text> 
+                $
+l.71  post_2013 &
+                  0.434$^{***}$ & -7.861$^{***}$ & -3.965$^{***}$ & 1.193$^{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:71: Missing } inserted.
+<inserted text> 
+                }
+l.71  post_2013 &
+                  0.434$^{***}$ & -7.861$^{***}$ & -3.965$^{***}$ & 1.193$^{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tables.tex:73: Missing $ inserted.
+<inserted text> 
+                $
+l.73  treated_
+              50 & -1.186$^{***}$ & 2.844$^{***}$ & 0.240$^{***}$ & -1.101$^...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:73: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.73  treated_50 &
+                   -1.186$^{***}$ & 2.844$^{***}$ & 0.240$^{***}$ & -1.101$^...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:73: Missing $ inserted.
+<inserted text> 
+                $
+l.73  treated_50 &
+                   -1.186$^{***}$ & 2.844$^{***}$ & 0.240$^{***}$ & -1.101$^...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:73: Missing } inserted.
+<inserted text> 
+                }
+l.73  treated_50 &
+                   -1.186$^{***}$ & 2.844$^{***}$ & 0.240$^{***}$ & -1.101$^...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tables.tex:75: Missing $ inserted.
+<inserted text> 
+                $
+l.75  treated_
+              50*post_2013 & 1.280$^{***}$ & -0.026$^{}$ & 0.138$^{***}$ & -...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:75: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.75  treated_50*post_2013 &
+                             1.280$^{***}$ & -0.026$^{}$ & 0.138$^{***}$ & -...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:75: Missing $ inserted.
+<inserted text> 
+                $
+l.75  treated_50*post_2013 &
+                             1.280$^{***}$ & -0.026$^{}$ & 0.138$^{***}$ & -...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:75: Missing } inserted.
+<inserted text> 
+                }
+l.75  treated_50*post_2013 &
+                             1.280$^{***}$ & -0.026$^{}$ & 0.138$^{***}$ & -...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tables.tex:99: Missing $ inserted.
+<inserted text> 
+                $
+l.99  post_
+           2017 & -6.048$^{***}$ & -7.702$^{***}$ & 0.429$^{***}$ & 0.425$^{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:99: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.99  post_2017 &
+                  -6.048$^{***}$ & -7.702$^{***}$ & 0.429$^{***}$ & 0.425$^{...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:99: Missing $ inserted.
+<inserted text> 
+                $
+l.99  post_2017 &
+                  -6.048$^{***}$ & -7.702$^{***}$ & 0.429$^{***}$ & 0.425$^{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:99: Missing } inserted.
+<inserted text> 
+                }
+l.99  post_2017 &
+                  -6.048$^{***}$ & -7.702$^{***}$ & 0.429$^{***}$ & 0.425$^{...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tables.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101  treated_
+               50 & -1.165$^{***}$ & 2.989$^{***}$ & 0.350$^{***}$ & -1.202$...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:101: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.101  treated_50 &
+                    -1.165$^{***}$ & 2.989$^{***}$ & 0.350$^{***}$ & -1.202$...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101  treated_50 &
+                    -1.165$^{***}$ & 2.989$^{***}$ & 0.350$^{***}$ & -1.202$...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:101: Missing } inserted.
+<inserted text> 
+                }
+l.101  treated_50 &
+                    -1.165$^{***}$ & 2.989$^{***}$ & 0.350$^{***}$ & -1.202$...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./tables.tex:103: Missing $ inserted.
+<inserted text> 
+                $
+l.103  treated_
+               50*post_2017 & 2.148$^{***}$ & -0.410$^{***}$ & 0.130$^{**}$ ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:103: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.103  treated_50*post_2017 &
+                              2.148$^{***}$ & -0.410$^{***}$ & 0.130$^{**}$ ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./tables.tex:103: Missing $ inserted.
+<inserted text> 
+                $
+l.103  treated_50*post_2017 &
+                              2.148$^{***}$ & -0.410$^{***}$ & 0.130$^{**}$ ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./tables.tex:103: Missing } inserted.
+<inserted text> 
+                }
+l.103  treated_50*post_2017 &
+                              2.148$^{***}$ & -0.410$^{***}$ & 0.130$^{**}$ ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./tables.aux) ) 
+Here is how much of TeX's memory you used:
+ 1050 strings out of 478300
+ 18030 string characters out of 5845125
+ 359872 words of memory out of 5000000
+ 19284 multiletter control sequences out of 15000+600000
+ 472342 words of font info for 38 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,10n,62p,260b,252s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb>
+Output written on tables.pdf (1 page, 66029 bytes).
+PDF statistics:
+ 38 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
