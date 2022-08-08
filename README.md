@@ -1,7 +1,7 @@
 # powerlinemonsters - the effect of power line construction projects on voting results
-This is my master thesis project. I analyze the effect of the 2013 announcement of powerline construction projects on federal (BTW) and state elections (LTW) voting outcomes in German municipalities.
+This is my master thesis project. I analyze the effect of the 2013 announcement of powerline construction projects on federal (BTW) and state election (LTW) voting outcomes in German municipalities.
 
-For this, I geocode the endpoints of proposed powerlines given in the 2013 Federal Demand Plan Act (BBPLG). I then construct a shapefile which has the (direct) line between the endpoints and examine, whether these lines intersect with municipalities which gives me my treatment indicator. Using this, I estimate Differences-in-Differences (DiD) Regression models to estimate the effect of powerline construction projects on voting results
+For this, I geocode the endpoints of proposed powerlines given in the 2013 Federal Demand Plan Act (BBPLG). I then construct a shapefile which has the (direct) line between the endpoints and examine, whether these lines intersect with municipalities. This then gives me my treatment indictor, which I use to estimate Differences-in-Differences (DiD) Regression models of the effect of powerline construction projects on voting results
 
 ## Overview of files
 - pl_corridors calculates power lines routes and returns a shape file
