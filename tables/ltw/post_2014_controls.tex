@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage[a1paper]{geometry}
+\begin{document}
+ 
+\begin{table}[!htbp] \centering
+  \caption{Effect on Vote Shares, treatment in 2014. Standard errors adjusted for 244 clusters on the County level}
+\begin{tabular}{@{\extracolsep{5pt}}lcccccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+\\[-1.8ex] & \multicolumn{1}{c}{Union} & \multicolumn{1}{c}{SPD} & \multicolumn{1}{c}{FDP} & \multicolumn{1}{c}{Linke} & \multicolumn{1}{c}{Grüne} & \multicolumn{1}{c}{Andere}  \\
+\hline \\[-1.8ex]
+ treated0*post2014 & 1.281$^{*}$ & 1.427$^{}$ & -0.106$^{}$ & -0.320$^{}$ & -1.036$^{}$ & -1.244$^{}$ \\
+  & (0.688) & (1.537) & (0.317) & (0.683) & (0.741) & (1.041) \\
+ State FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Year FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Controls & Yes & Yes & Yes & Yes & Yes & Yes \\
+\hline \\[-1.8ex]
+ treated10*post2014 & 1.618$^{***}$ & 1.305$^{}$ & -0.178$^{}$ & 0.069$^{}$ & -1.399$^{**}$ & -1.413$^{}$ \\
+  & (0.579) & (1.467) & (0.314) & (0.768) & (0.632) & (0.999) \\
+ State FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Year FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Controls & Yes & Yes & Yes & Yes & Yes & Yes \\
+\hline \\[-1.8ex]
+ treated20*post2014 & 1.986$^{***}$ & 1.058$^{}$ & -0.146$^{}$ & 0.309$^{}$ & -1.563$^{**}$ & -1.642$^{}$ \\
+  & (0.535) & (1.478) & (0.340) & (0.855) & (0.634) & (1.044) \\
+ State FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Year FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Controls & Yes & Yes & Yes & Yes & Yes & Yes \\
+\hline \\[-1.8ex]
+ treated30*post2014 & 2.140$^{***}$ & 1.044$^{}$ & -0.127$^{}$ & 0.362$^{}$ & -1.571$^{**}$ & -1.846$^{*}$ \\
+  & (0.498) & (1.351) & (0.318) & (0.785) & (0.630) & (0.946) \\
+ State FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Year FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Controls & Yes & Yes & Yes & Yes & Yes & Yes \\
+\hline \\[-1.8ex]
+ treated50*post2014 & 2.222$^{***}$ & 1.320$^{}$ & -0.075$^{}$ & 0.485$^{}$ & -1.723$^{***}$ & -2.226$^{***}$ \\
+  & (0.486) & (1.189) & (0.297) & (0.693) & (0.612) & (0.842) \\
+ State FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Year FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Controls & Yes & Yes & Yes & Yes & Yes & Yes \\
+\hline \\[-1.8ex]
+ treated100*post2014 & 3.011$^{***}$ & -0.352$^{}$ & -0.357$^{}$ & 1.978$^{***}$ & -2.728$^{***}$ & -1.552$^{**}$ \\
+  & (0.497) & (0.884) & (0.262) & (0.435) & (0.609) & (0.725) \\
+ State FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Year FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Controls & Yes & Yes & Yes & Yes & Yes & Yes \\
+\hline \\[-1.8ex]
+ Observations & 12,647 & 12,647 & 12,647 & 12,647 & 12,647 & 12,647 \\
+ $R^2$ & 0.499 & 0.413 & 0.189 & 0.430 & 0.325 & 0.481 \\
+ Adjusted $R^2$ & 0.499 & 0.413 & 0.188 & 0.429 & 0.325 & 0.481 \\
+ Residual Std. Error & 7.634(df = 12636) & 8.884(df = 12636) & 3.468(df = 12636) & 5.480(df = 12636) & 4.078(df = 12636) & 7.548(df = 12636)  \\
+ F Statistic & 159.862$^{***}$ (df = 10.0; 12636.0) & 90.037$^{***}$ (df = 10.0; 12636.0) & 38.383$^{***}$ (df = 10.0; 12636.0) & 9.490$^{***}$ (df = 10.0; 12636.0) & 38.215$^{***}$ (df = 10.0; 12636.0) & 139.980$^{***}$ (df = 10.0; 12636.0) \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{6}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}
+\end{document}
