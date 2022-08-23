@@ -13,3 +13,6 @@ data/gtrends
 
 # Visual Studio Code
 .vscode/
+
+# .rtf Tables
+.rtf/
