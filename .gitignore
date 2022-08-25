@@ -15,4 +15,8 @@ data/gtrends
 .vscode/
 
 # .rtf Tables
-.rtf/
+.rtf
+
+# R 
+.RData/
+.Rhistory
