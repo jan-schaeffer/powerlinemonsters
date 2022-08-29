@@ -1,0 +1,37 @@
+\documentclass[12pt]{article}
+\usepackage[a1paper]{geometry}
+\begin{document}
+ 
+\begin{table}[!htbp] \centering
+  \caption{Effect on Primary Vote, treatment between 2009 and 2013. Standard errors adjusted for 7134 clusters on the Municipality and state level}
+\begin{tabular}{@{\extracolsep{5pt}}lcccccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+\\[-1.8ex] & \multicolumn{1}{c}{Union} & \multicolumn{1}{c}{SPD} & \multicolumn{1}{c}{FDP} & \multicolumn{1}{c}{Linke} & \multicolumn{1}{c}{Grüne} & \multicolumn{1}{c}{Andere}  \\
+\hline \\[-1.8ex]
+ treatment30:post2009 & -0.055$^{}$ & 0.905$^{}$ & 0.321$^{**}$ & 0.117$^{}$ & 1.062$^{***}$ & -2.349$^{***}$ \\
+  & (1.401) & (1.050) & (0.149) & (0.439) & (0.262) & (0.597) \\
+ State FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Year FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+\hline \\[-1.8ex]
+ treatment60:post2009 & 0.931$^{}$ & 0.296$^{}$ & 0.286$^{}$ & 0.100$^{}$ & 0.994$^{***}$ & -2.606$^{***}$ \\
+  & (1.596) & (1.189) & (0.207) & (0.355) & (0.267) & (0.675) \\
+ State FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Year FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+\hline \\[-1.8ex]
+ treatment100:post2009 & 1.566$^{}$ & -0.352$^{}$ & 0.506$^{*}$ & 0.164$^{}$ & 0.646$^{*}$ & -2.529$^{***}$ \\
+  & (1.850) & (1.482) & (0.281) & (0.297) & (0.333) & (0.757) \\
+ State FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+ Year FE & Yes & Yes & Yes & Yes & Yes & Yes \\
+\hline \\[-1.8ex]
+ Observations & 49,909 & 49,909 & 49,909 & 49,909 & 49,909 & 49,909 \\
+ $R^2$ & 0.398 & 0.547 & 0.473 & 0.856 & 0.408 & 0.670 \\
+ Adjusted $R^2$ & 0.398 & 0.546 & 0.473 & 0.856 & 0.407 & 0.670 \\
+ Residual Std. Error & 9.671(df = 49888) & 8.436(df = 49888) & 2.879(df = 49888) & 3.003(df = 49888) & 2.656(df = 49888) & 3.728(df = 49888)  \\
+ F Statistic & 1266.118$^{***}$ (df = 20.0; 49888.0) & 2076.480$^{***}$ (df = 20.0; 49888.0) & 6008.339$^{***}$ (df = 20.0; 49888.0) & 1378.445$^{***}$ (df = 20.0; 49888.0) & 174.417$^{***}$ (df = 20.0; 49888.0) & 1532.496$^{***}$ (df = 20.0; 49888.0) \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{6}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}
+\end{document}
