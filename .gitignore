@@ -15,8 +15,9 @@ data/
 # Visual Studio Code
 .vscode/
 
-# .rtf Tables
+# Tables
 .rtf
+.tex 
 
 # R 
 .RData/
