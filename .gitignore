@@ -5,6 +5,8 @@ data/elections
 data/geodata
 data/gtrends
 data/
+figures/
+tables/
 
 # Mac Finder Configurations
 **/.DS_Store
