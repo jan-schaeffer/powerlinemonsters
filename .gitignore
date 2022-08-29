@@ -22,7 +22,7 @@ tables/
 .tex 
 
 # R 
-.RData/
+.RData
 .Rhistory
 
 # Figures
