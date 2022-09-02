@@ -13,6 +13,7 @@ btw <-import("/Users/jan/Dropbox/UP_EPQM/2222/MA/powerlinemonsters/data/btw_cont
 summary(btw)
 
 erst <- subset(btw, first_vote == 1)
+by <- subset(erst, Land == "BY")
 zweit <- btw[btw$second_vote == 1,]
 summary(erst)
 
@@ -50,18 +51,18 @@ out <- att_gt(yname = 'Union',
               idname = "AGS",
               panel = TRUE,
               tname = "year",
-              xformla = ~ east + pop_density + female + avg_age, # ~ pop_density + female + foreign + unemployed + avg_income + avg_age + catholic,
-              data = erst,
+              xformla = ~ 1, #pop_density + female + avg_age,
+              data = by,
               est_method = "dr",
               anticipation = 1,
-              control_group = "nevertreated",
-              clustervars = c("AGS", "state_id"),
+              control_group = "notyettreated",
+              clustervars = c("AGS"),
               bstrap = TRUE,
               cband = TRUE,
               allow_unbalanced_panel = FALSE,
               #print_details = TRUE
 )
-
+<- 
 p = as.numeric(out$Wpval)
 #p <- as.data.frame(out$Wpval)
 #p <- as.numeric(p[0,0])
@@ -71,6 +72,8 @@ es <- aggte(out, type = "dynamic")
 summary(es)
 ggdid(es, ylim = c(floor(min(es$att.egt - es$se.egt * 2.345 - 1)), ceiling(max(es$att.egt + es$se.egt * 2.345 + 1))))
 
+library(did)
+trace("gplot", edit=TRUE)
 
 
 group_effects <- aggte(out, type = "group")
