@@ -9,7 +9,7 @@ library(rio)
 library(ggplot2)
 
 # read in the data set
-btw <-import("/Users/jan/Dropbox/UP_EPQM/2222/MA/powerlinemonsters/data/btw_treat.csv")
+btw <-import("/Users/jan/Dropbox/UP_EPQM/2222/MA/powerlinemonsters/data/btw_control.csv")
 summary(btw)
 
 erst <- subset(btw, first_vote == 1)
@@ -45,12 +45,32 @@ for(party in parties){
 }
 
 
+out <- att_gt(yname = 'Union',
+              gname = 'treatment_30',
+              idname = "AGS",
+              panel = TRUE,
+              tname = "year",
+              xformla = ~ east + pop_density + female + avg_age, # ~ pop_density + female + foreign + unemployed + avg_income + avg_age + catholic,
+              data = erst,
+              est_method = "dr",
+              anticipation = 1,
+              control_group = "nevertreated",
+              clustervars = c("AGS", "state_id"),
+              bstrap = TRUE,
+              cband = TRUE,
+              allow_unbalanced_panel = FALSE,
+              #print_details = TRUE
+)
 
-es <- aggte(out, type = "dynamic", balance_e=1)
+p = as.numeric(out$Wpval)
+#p <- as.data.frame(out$Wpval)
+#p <- as.numeric(p[0,0])
+p
+summary(out)
+es <- aggte(out, type = "dynamic")
 summary(es)
-ggdid(es)
 ggdid(es, ylim = c(floor(min(es$att.egt - es$se.egt * 2.345 - 1)), ceiling(max(es$att.egt + es$se.egt * 2.345 + 1))))
-ggsave(sprintf("/Users/jan/Dropbox/UP_EPQM/2222/MA/powerlinemonsters/figures/R/ES_%s_%s.png", party, treatment))
+
 
 
 group_effects <- aggte(out, type = "group")
