@@ -47,12 +47,12 @@ for(party in parties){
 
 
 out <- att_gt(yname = 'Union',
-              gname = 'treatment_30',
+              gname = 'treatment_15',
               idname = "AGS",
               panel = TRUE,
               tname = "year",
               xformla = ~ 1, #pop_density + female + avg_age,
-              data = by,
+              data = erst,
               est_method = "dr",
               anticipation = 1,
               control_group = "notyettreated",
@@ -62,19 +62,29 @@ out <- att_gt(yname = 'Union',
               allow_unbalanced_panel = FALSE,
               #print_details = TRUE
 )
-<- 
-p = as.numeric(out$Wpval)
-#p <- as.data.frame(out$Wpval)
-#p <- as.numeric(p[0,0])
-p
 summary(out)
-es <- aggte(out, type = "dynamic")
+es <- aggte(out, type = "group", bstrap = TRUE, clustervars = c("AGS"))
 summary(es)
 ggdid(es, ylim = c(floor(min(es$att.egt - es$se.egt * 2.345 - 1)), ceiling(max(es$att.egt + es$se.egt * 2.345 + 1))))
 
 library(did)
-trace("gplot", edit=TRUE)
+trace(gplot, edit=TRUE)
 
 
 group_effects <- aggte(out, type = "group")
 summary(group_effects)
+
+
+library(did)
+data(mpdta)
+View(mpdta)
+out <- att_gt(yname = "lemp",
+              gname = "first.treat",
+              idname = "countyreal",
+              tname = "year",
+              xformla = ~1,
+              data = mpdta,
+              est_method = "reg"
+)
+
+summary(out)
