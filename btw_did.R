@@ -11,7 +11,7 @@ library(patchwork)
 library(ggpubr)
 
 # read in the data set
-btw <-import("/Users/jan/Dropbox/UP_EPQM/2222/MA/powerlinemonsters/data/btw_control.csv")
+btw <-import("/Users/jan/Dropbox/UP_EPQM/2222/MA/powerlinemonsters/data/btw_treat.csv")
 summary(btw)
 
 erst <- subset(btw, first_vote == 1)
@@ -29,17 +29,12 @@ result <- att_gt(yname = 'Union',
               clustervars = c("AGS"),
               bstrap = TRUE,
               cband = TRUE,
-              allow_unbalanced_panel = FALSE,
+              allow_unbalanced_panel = TRUE,
               #print_details = TRUE
 )
-results[[length(results)+1]] <- result
 # calculate ATTs
 att <- aggte(result, type = "group", bstrap = TRUE, clustervars = c('AGS'))
-att <- c(att$att.egt)
-names(att) <- c('2005', '2010', '2014')
-att <- aggte(result, type = "group", bstrap = TRUE, clustervars = c('AGS'))
-se <- c(att$se.egt)
-names(se) <- c('2005', '2010', '2014')
+
 
 sprintf('Group 2005 ATT(SE): %s (%s) \n Group 2010 ATT(SE): %s (%s) \n Group 2014 ATT(SE): %s (%s)', 
         att[['2005']], se[['2005']], att[['2010']], se[['2010']], att[['2014']], se[['2014']])
@@ -79,7 +74,17 @@ final_fig <- annotate_figure(arranged_fig,
                              bottom = text_grob('Control Group: Never Treated. Estimation Method: Regression \n SE clustered on the municipality level.', size = 10))
 final_fig
 
-cap =sprintf('Group 2005 ATT(SE): %.3f (%.3f) \n Group 2010 ATT(SE): %.3f (%.3f) \n Group 2014 ATT(SE): %.3f (%.3f)', 
+strings <- list('Group 2014 ATT(SE): %.3f (%.3f)', 'Group 2010 ATT(SE): %.3f (%.3f) \n Group 2014 ATT(SE): %.3f (%.3f)', 'Group 2005 ATT(SE): %.3f (%.3f) \n Group 2010 ATT(SE): %.3f (%.3f) \n Group 2014 ATT(SE): %.3f (%.3f)')
+
+for (i in 1:3){
+  cap = (do.call(sprintf, args = c(fmt = strings[i], att$att.egt[[i]], att$se.egt[[i]])))
+}
+cap
+
+cap = do.call(sprintf, args = c(fmt = strings[i], vars[[i]])))
+  
+  
+  sprintf('Group 2005 ATT(SE): %.3f (%.3f) \n Group 2010 ATT(SE): %.3f (%.3f) \n Group 2014 ATT(SE): %.3f (%.3f)', 
              as.numeric(att$att.egt[[1]]), as.numeric(att$se.egt[[1]]), as.numeric(att$att.egt[[2]]), as.numeric(att$att.se[[2]]), as.numeric(att$att.egt[[3]]), as.numeric(att$se.egt[[3]]))
 cap
 
