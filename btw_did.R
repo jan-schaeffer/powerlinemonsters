@@ -48,6 +48,8 @@ theme(plot.caption = element_text(hjust=0.5, size=10),
       plot.margin=unit(c(0,0,0,0),"cm"))
 result_fig
 
+length(unique(result_fig$data$grtitle))
+
 
 leg <- get_legend(result_fig)
 
@@ -77,9 +79,23 @@ final_fig
 strings <- list('Group 2014 ATT(SE): %.3f (%.3f)', 'Group 2010 ATT(SE): %.3f (%.3f) \n Group 2014 ATT(SE): %.3f (%.3f)', 'Group 2005 ATT(SE): %.3f (%.3f) \n Group 2010 ATT(SE): %.3f (%.3f) \n Group 2014 ATT(SE): %.3f (%.3f)')
 
 for (i in 1:3){
-  cap = (do.call(sprintf, args = c(fmt = strings[i], att$att.egt[[i]], att$se.egt[[i]])))
+  cap = do.call(sprintf, args = c(fmt = strings[i], att$att.egt[[i]], att$se.egt[[i]]))
 }
 cap
+
+att <- aggte(result, type = "group", bstrap = TRUE, clustervars = c('AGS'))
+dput(att$DIDparams$glist)
+dput(att$att.egt)
+dput(att$se.egt)
+
+cap = ''
+for(i in 1:length(att$DIDparams$glist)) {
+  cap <-  sprintf('%s Group %s: ATT(SE) %.3f (%.3f) \n', cap, att$DIDparams$glist[[i]], att$att.egt[[i]], att$se.egt[[i]])
+}
+print(cap)
+cap <- substr(cap,1,nchar(cap)-2)
+cap
+
 
 cap = do.call(sprintf, args = c(fmt = strings[i], vars[[i]])))
   
