@@ -8,8 +8,9 @@ For this, I geocode the endpoints of proposed powerlines given in the 2013 Feder
 - pl_treatment calculate the treatment indicator (powerline intersects with municipality)
 - btw_/ltw_data_prep prepare the federal and state election data for analysis
 - controls_prep prepares a set of control variables
-- btw_/ltw_eda provide exploratory analysis 
-- btw_/ltw_did provide the DiD Models
+- btw_/ltw_eda provide exploratory analysis for federal and state elections
+- pl_eda provides exploratory analysis of the treatment variable
+- cs_did provides the DiD Models
 
 ## Note
 Raw data cannot be provided due to large file sizes. To allow replication, I plan to add a script that pulls the data from the Genesis/Regionaldatenbank APIs at a later point.

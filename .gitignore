@@ -4,6 +4,9 @@ data/controls
 data/elections
 data/geodata
 data/gtrends
+data/
+figures/
+tables/
 
 # Mac Finder Configurations
 **/.DS_Store
@@ -13,3 +16,14 @@ data/gtrends
 
 # Visual Studio Code
 .vscode/
+
+# Tables
+.rtf
+.tex 
+
+# R 
+.RData
+.Rhistory
+
+# Figures
+.png
